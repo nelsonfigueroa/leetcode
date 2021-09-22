@@ -2,6 +2,7 @@
 
 from typing import List
 
+
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         even_numbers = 0
@@ -12,5 +13,5 @@ class Solution:
         return even_numbers
 
 
-result = Solution.findNumbers(Solution, [12,345,2,6,7896])
+result = Solution.findNumbers(Solution, [12, 345, 2, 6, 7896])
 print(result)

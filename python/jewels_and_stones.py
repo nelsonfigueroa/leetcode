@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/jewels-and-stones/
 
+
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
         jewel_count = 0
@@ -11,5 +12,5 @@ class Solution:
         return jewel_count
 
 
-result = Solution.numJewelsInStones(Solution, 'aA', 'aAAbbbb')
+result = Solution.numJewelsInStones(Solution, "aA", "aAAbbbb")
 print(result)
